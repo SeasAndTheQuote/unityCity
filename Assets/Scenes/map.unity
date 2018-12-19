@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 149031763}
   - component: {fileID: 149031762}
   - component: {fileID: 149031761}
+  - component: {fileID: 149031764}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -164,7 +165,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.813694
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -193,17 +194,35 @@ Transform:
   m_Children:
   - {fileID: 741754325}
   - {fileID: 1013526615}
+  - {fileID: 1144659618978851862}
   - {fileID: 665889988}
   - {fileID: 1844929183}
   - {fileID: 1699564123}
   - {fileID: 3719691718196484294}
   - {fileID: 8858568055813675875}
-  - {fileID: 1144659618978851862}
   - {fileID: 1099823071}
   - {fileID: 1141056812}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &149031764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149031760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda42ba5ad37be74ea13b5541c69c520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab1: {fileID: 0}
+  Prefab2: {fileID: 0}
+  Prefab3: {fileID: 0}
+  House1: {fileID: 7378433672023626020, guid: c9cad69f2e8f3a54e8f863a87418b78c, type: 3}
+  House2: {fileID: 1610565752864939530, guid: abf5382c9825ea449b091690f8dd91e8, type: 3}
+  House3: {fileID: 1144659618978851862}
 --- !u!1 &526308374
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +357,7 @@ PrefabInstance:
     - target: {fileID: 9094510061346141882, guid: 78838e4b23a54fb4a8370f79b87f1050,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9094510061346141882, guid: 78838e4b23a54fb4a8370f79b87f1050,
         type: 3}
@@ -530,8 +549,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207, y: 57}
-  m_SizeDelta: {x: 78.2, y: 35}
+  m_AnchoredPosition: {x: -318.41, y: -142.67}
+  m_SizeDelta: {x: 163.19, y: 74.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &941771391
 MonoBehaviour:
@@ -573,15 +592,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102900000, guid: 81295cc413b3ce443a62a67550fb5d81, type: 3}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 149031764}
+        m_MethodName: Tester
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: debug test
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -635,6 +654,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda42ba5ad37be74ea13b5541c69c520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Prefab1: {fileID: 0}
+  Prefab2: {fileID: 0}
+  Prefab3: {fileID: 0}
+  House1: {fileID: 0}
+  House2: {fileID: 0}
+  House3: {fileID: 0}
 --- !u!1001 &1013526614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -752,10 +777,9 @@ GameObject:
   - component: {fileID: 1099823074}
   - component: {fileID: 1099823073}
   - component: {fileID: 1099823072}
-  - component: {fileID: 1099823075}
   - component: {fileID: 1099823076}
   m_Layer: 5
-  m_Name: Canvas UI
+  m_Name: CanvasUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -841,19 +865,6 @@ Canvas:
   m_SortingLayerID: 1379656735
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1099823075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099823070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1ec8c4865265c44ab0e4d813f139cde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cell_size: 0.64
 --- !u!114 &1099823076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1021,7 +1032,7 @@ PrefabInstance:
     - target: {fileID: 8086741757258288165, guid: 277901afbb39b164eb52edd0cfecfd9a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8086741757258288165, guid: 277901afbb39b164eb52edd0cfecfd9a,
         type: 3}
@@ -1082,6 +1093,7 @@ GameObject:
   - component: {fileID: 1747590298}
   - component: {fileID: 1747590300}
   - component: {fileID: 1747590299}
+  - component: {fileID: 1747590301}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1145,6 +1157,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747590297}
   m_CullTransparentMesh: 0
+--- !u!114 &1747590301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747590297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda42ba5ad37be74ea13b5541c69c520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab1: {fileID: 0}
+  Prefab2: {fileID: 0}
+  Prefab3: {fileID: 0}
+  House1: {fileID: 0}
+  House2: {fileID: 0}
+  House3: {fileID: 0}
 --- !u!1001 &1844929182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1200,7 +1230,7 @@ PrefabInstance:
     - target: {fileID: 6437692066202523034, guid: e543a139f56898641a7b5cb7eec5afd0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6437692066202523034, guid: e543a139f56898641a7b5cb7eec5afd0,
         type: 3}
@@ -1371,7 +1401,7 @@ PrefabInstance:
     - target: {fileID: 1144659618978851862, guid: a05c8f7bf338940478181f2ca79c8301,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1144659618978851862, guid: a05c8f7bf338940478181f2ca79c8301,
         type: 3}
@@ -1476,7 +1506,7 @@ PrefabInstance:
     - target: {fileID: 8858568055813675875, guid: 63a85684366d0674a9a0ebfb0cb0b148,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8858568055813675875, guid: 63a85684366d0674a9a0ebfb0cb0b148,
         type: 3}
@@ -1575,7 +1605,7 @@ PrefabInstance:
     - target: {fileID: 3719691718196484294, guid: b2609447eee58ab4e959ff8e506dbd7a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3719691718196484294, guid: b2609447eee58ab4e959ff8e506dbd7a,
         type: 3}
