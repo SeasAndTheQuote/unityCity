@@ -25,7 +25,7 @@ public class clickFunctionHandler : MonoBehaviour
         float x = rnd.Next(-20, 20) * 0.32f;
         float y = rnd.Next(-15, 15) * 0.32f;
         position = new Vector3(x, y, 1f);
-        Instantiate(prefabs[2], position, Quaternion.identity);
+        Instantiate(prefabs[rnd.Next(0,2)], position, Quaternion.identity);
         Debug.Log(input + " x = " + x + ", y = " + y);
     }
 }
