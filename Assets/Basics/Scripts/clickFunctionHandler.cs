@@ -1,22 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class clickFunctionHandler : MonoBehaviour
+public class ClickFunctionHandler : MonoBehaviour
 {
+
+    Vector3 position;
+
     List<Transform> prefabs = new List<Transform>();
     public Transform House1;
     public Transform House2;
     public Transform House3;
 
-    Vector3 position;
-
     System.Random rnd = new System.Random();
 
-    public clickFunctionHandler()
+    public ClickFunctionHandler()
     {
+
     }
+
+    private void Start()
+    {
+        //House1 = GameObject.Find("Prefabs/House1").transform;
+        //House2 = GameObject.Find("Prefabs/House2").transform;
+        //House3 = GameObject.Find("Prefabs/House3").transform;
+    }
+
     public void Tester(string input)
     {
         prefabs.Add(House1);

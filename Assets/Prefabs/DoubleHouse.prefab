@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8858568055813675875}
   - component: {fileID: 8987397612469884471}
   - component: {fileID: 7474010051685004700}
+  - component: {fileID: 6326751594488577009}
   m_Layer: 0
   m_Name: DoubleHouse
   m_TagString: Untagged
@@ -93,3 +94,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cell_size: 0.64
+--- !u!60 &6326751594488577009
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540012225387531980}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.19, y: 0.28}
+      - {x: 0.099999994, y: 0.42}
+      - {x: 0, y: 0.42}
+      - {x: -0.31, y: 0.34}
+      - {x: -0.59999996, y: 0.01}
+      - {x: -0.64, y: -0.14}
+      - {x: -0.64, y: -0.35}
+      - {x: -0.06, y: -0.64}
+      - {x: 0.06, y: -0.64}
+      - {x: 0.64, y: -0.37}
+      - {x: 0.64, y: -0.13}
+      - {x: 0.39, y: 0.29}

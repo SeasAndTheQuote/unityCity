@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9094510061346141882}
   - component: {fileID: 9094510061346141883}
   - component: {fileID: 9094510061346141860}
+  - component: {fileID: 8985164757046053160}
   m_Layer: 0
   m_Name: BigOffice
   m_TagString: Untagged
@@ -93,3 +94,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cell_size: 0.64
+--- !u!60 &8985164757046053160
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9094510061346141861}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.24301147, y: 0.6100006}
+      - {x: -0.63323975, y: 0.42970276}
+      - {x: -0.64, y: -0.41}
+      - {x: -0.099999994, y: -0.64}
+      - {x: 0.17, y: -0.64}
+      - {x: 0.64, y: -0.35}
+      - {x: 0.6399994, y: 0.07357788}
+      - {x: 0.32400513, y: 0.24334717}
+      - {x: 0.30203247, y: 0.42063904}

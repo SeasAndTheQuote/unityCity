@@ -7,12 +7,16 @@ public class SnapToGrid : MonoBehaviour
 
     public float cell_size = 0.64f;
     private float x, y, z;
+    GameObject gobj;
+    
 
     void Start()
     {
         x = 0f;
         y = 0f;
         z = 0f;
+
+        
     }
 
     void Update()
@@ -29,8 +33,21 @@ public class SnapToGrid : MonoBehaviour
             x += cell_size;*/
         
         transform.position = new Vector3(x, y, z);
-        
 
     }
 
+    private void OnMouseEnter()
+    {
+        transform.GetComponent<Renderer>().material.color = Color.green;
+    }
+
+    private void OnMouseExit()
+    {
+        transform.GetComponent<Renderer>().material.color = Color.white;
+    }
+    
+    private void OnMouseUpAsButton()
+    {
+        Debug.Log("Click on " + name + "!");
+    }
 }
