@@ -297,20 +297,20 @@
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
-    <Reference Include="FacebookNamedPipeClient">
-      <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/FacebookNamedPipeClient.dll</HintPath>
+    <Reference Include="Facebook.Unity.Canvas">
+      <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/Facebook.Unity.Canvas.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
       <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/Facebook.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Canvas">
-      <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/Facebook.Unity.Canvas.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/Facebook.Unity.Gameroom.dll</HintPath>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>E:/MAGISTERKA/unity/NotSimCitytemp/Library/PackageCache/com.unity.facebook.gameroom.sdk@7.13.0/Runtime/FacebookNamedPipeClient.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

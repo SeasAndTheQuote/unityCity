@@ -572,8 +572,8 @@ PlayerSettings:
   luminVersion:
     m_VersionCode: 1
     m_VersionName: 
-  facebookSdkVersion: 7.9.4
-  facebookAppId: 
+  facebookSdkVersion: 7.13.0
+  facebookAppId: 282730555738961
   facebookCookies: 1
   facebookLogging: 1
   facebookStatus: 1

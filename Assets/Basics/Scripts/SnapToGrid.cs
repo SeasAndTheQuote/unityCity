@@ -15,7 +15,6 @@ public class SnapToGrid : MonoBehaviour
         x = 0f;
         y = 0f;
         z = 0f;
-
         
     }
 
@@ -38,16 +37,17 @@ public class SnapToGrid : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        transform.GetComponent<Renderer>().material.color = Color.green;
+        transform.GetComponent<Renderer>().material.color = Color.blue;
     }
 
     private void OnMouseExit()
     {
         transform.GetComponent<Renderer>().material.color = Color.white;
     }
-    
+     
     private void OnMouseUpAsButton()
     {
         Debug.Log("Click on " + name + "!");
+
     }
 }
